@@ -14,7 +14,7 @@ public class PeopleController(PeopleService peopleService, ILogger<PeopleControl
     {
         logger.LogInformation("People created: {$0}", people);
         peopleService.CreatePeople(people);
-        return Ok();
+        return Ok(people);
     }
 
     [HttpGet]
