@@ -1,0 +1,6 @@
+@WA_PeoplesManager_HostAddress = http://localhost:5207
+
+GET {{WA_PeoplesManager_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
